@@ -25,12 +25,12 @@ You can grab the extension direclty from [here](https://addons.mozilla.org/en-US
 
 > This is temporary and will be removed after restart.
 
-### Chrome
+### Chrome/Brave
 
 1. Download `cf-peak-analyzer-chrome.zip` from [github-releases](https://github.com/MysteriousBits/peak-analyzer/releases/tag/v1.0) and unzip it.
-2. Go to `chrome://extensions`.
+2. Go to `chrome://extensions` or `brave://extensions`.
 3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the unzipped folder.
+4. Click **Load unpacked** and select the unzipped **root** folder.
 5. Visit any `codeforces.com/profile/<handle>` page.
 
 > Unlike Firefox's temporary add-ons, this stays installed across
