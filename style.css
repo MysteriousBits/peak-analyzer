@@ -1,0 +1,110 @@
+.cf-analyzer-box {
+    --cf-primary: #4a76a8;
+    --cf-primary-dark: #375e87;
+    --cf-border: #dbe1e6;
+    --cf-muted: #767676;
+
+    background: #ffffff;
+    border: 1px solid var(--cf-border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.cf-analyzer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.cf-analyzer-header h3 {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--cf-primary);
+    white-space: nowrap;
+}
+
+.cf-analyzer-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cf-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 7px 14px;
+    font-size: 0.85em;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.cf-btn:active {
+    transform: scale(0.97);
+}
+
+.cf-btn-primary {
+    background-color: var(--cf-primary);
+    color: #fff;
+}
+
+.cf-btn-primary:hover:not(:disabled) {
+    background-color: var(--cf-primary-dark);
+}
+
+.cf-btn-primary:disabled {
+    background-color: #aab6c2;
+    cursor: not-allowed;
+}
+
+.cf-btn-secondary {
+    display: none;
+    background-color: #f0f2f4;
+    color: #333;
+    border: 1px solid var(--cf-border);
+}
+
+.cf-btn-secondary:hover {
+    background-color: #e4e8eb;
+}
+
+.cf-analyzer-status {
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: var(--cf-muted);
+    min-height: 1.1em;
+}
+
+.cf-chart-wrapper {
+    display: none;
+    margin-top: 14px;
+    border: 1px solid var(--cf-border);
+    border-radius: 8px;
+    padding: 12px;
+    touch-action: none;
+    position: relative;
+}
+
+.cf-chart-wrapper canvas {
+    width: 100% !important;
+    height: 420px !important;
+    cursor: grab;
+}
+
+.cf-chart-wrapper canvas.cf-grabbing {
+    cursor: grabbing;
+}
+
+.cf-legend-hint {
+    font-size: 0.75em;
+    color: var(--cf-muted);
+    margin-top: 6px;
+    text-align: right;
+}
