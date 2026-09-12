@@ -15,15 +15,6 @@ difficulty tracked your rating over time.
 ## Installation
 ### Firefox
 You can grab the extension direclty from [here](https://addons.mozilla.org/en-US/firefox/addon/codeforces-peak-analyzer/).  
- 
-#### Development:
-
-1. Go to `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on…** and select the `manifest.json`.
-3. Visit any `codeforces.com/profile/<handle>` page — you'll see a new
-   "Peak Analyzer" panel.
-
-> This is temporary and will be removed after restart.
 
 ### Chrome/Brave
 
@@ -35,3 +26,25 @@ You can grab the extension direclty from [here](https://addons.mozilla.org/en-US
 
 > Unlike Firefox's temporary add-ons, this stays installed across
 > restarts.
+
+### Development:
+
+1. Go to `about:debugging#/runtime/this-firefox`.
+2. Click **Load Temporary Add-on…** and select the `manifest.json`.
+3. Visit any `codeforces.com/profile/<handle>` page — you'll see a new
+   "Peak Analyzer" panel.
+
+> This is temporary and will be removed after restart.
+
+### Build
+**Firefox:**
+```
+./build.sh
+```
+
+**Chrome/Brave:**
+```
+./build-chrome.sh
+```
+
+zip files will be inside `builds/`.

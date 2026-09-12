@@ -1,0 +1,1 @@
+zip -r builds/cf-peak-analyzer-chrome.zip chrome/manifest.json content.js style.css icons lib
