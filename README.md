@@ -18,7 +18,7 @@ You can grab the extension direclty from [here](https://addons.mozilla.org/en-US
 
 ### Chrome/Brave
 
-1. Download `cf-peak-analyzer-chrome.zip` from [github-releases](https://github.com/MysteriousBits/peak-analyzer/releases/tag/v1.0) and unzip it.
+1. Download `cf-peak-analyzer-chrome.zip` from [github-releases](https://github.com/MysteriousBits/peak-analyzer/releases/tag/v1.4) and unzip it.
 2. Go to `chrome://extensions` or `brave://extensions`.
 3. Turn on **Developer mode** (top right).
 4. Click **Load unpacked** and select the unzipped **root** folder.
