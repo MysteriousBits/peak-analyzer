@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Codeforces Peak Analyzer",
-  "version": "1.3",
+  "version": "1.4",
   "description": "Plots your daily max-rated problem solves against your rating trajectory, highlighting your peak.",
   "icons": {
     "16": "icons/icon16.png",
