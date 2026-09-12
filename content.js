@@ -318,9 +318,12 @@ function renderChart(solvePoints, ratingCurvePoints, pointBorderColors, pointBor
                     grid: { color: '#eef1f3' }
                 },
                 y: {
-                    min: 800,
-                    max: 3500,
+                    min: 0,
+                    max: 4200,
                     title: { display: true, text: 'Rating / Problem Difficulty', font: { weight: 'bold', size: 12 } },
+                    ticks: {
+                        callback: value => (value === 4200 ? '' : value)
+                    },
                     grid: { color: '#eef1f3' }
                 }
             },

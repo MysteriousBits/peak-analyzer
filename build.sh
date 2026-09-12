@@ -1,0 +1,1 @@
+zip -r builds/cf-peak-analyzer-firefox.zip manifest.json content.js style.css icons lib
