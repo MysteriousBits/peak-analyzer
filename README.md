@@ -5,7 +5,7 @@ trajectory (with your peak rating highlighted) against a scatter of the
 hardest problem you solved each day, so you can see how your solving
 difficulty tracked your rating over time.
 
-![Codeforces Peak Analyzer Preview](tourist.png)
+![Codeforces Peak Analyzer Preview](img/tourist.png)
 
 - Pan by dragging, zoom with scroll/pinch, reset with one click
 - Results are cached locally for 10 minutes so repeat visits don't hammer
